@@ -17,7 +17,7 @@ header{
 }
 .conteiner{
     display: flex;
-    color: gold;
+    color: darksalmon;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-around;
