@@ -1,44 +1,96 @@
-*{
-    margin: 5px;
-    padding: 0px;
-    box-sizing: content-box;
+
+head,body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+37,e9f241+81 */
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(left,  #fefcea 37%, #e9f241 81%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #fefcea 37%,#e9f241 81%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #fefcea 37%,#e9f241 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#e9f241',GradientType=1 ); /* IE6-9 */
+
+
+    
 }
 header{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color: gold;
+    justify-content: flex-start;
+    background-color:gold;
     color: rgb(124, 123, 123);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.foto{
-    padding: 5%;
-    justify-content: space-between;
-    width: 10px;
-}
-.fotodog{
-    display: inline-block;
-}
-.conteiner{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: flex-start;
+    border-radius: 10px;
+    
+    }
+   
+  
+
+
+
+
+/*.conteiner{
     display: flex;
     color: darksalmon;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 40%;
     }
     .btn{
         background-color: dimgray;
         border-radius: 30px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        padding:0 40px;
+        padding:0 70px;
+
+    } */
+    ul{
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-right: 50px;
+        margin-left: 600px;
+        border-radius: 30px;
+        padding:20px;
+        
     }
+    li{
+        margin-top: 10px;
+        margin-right: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .pai{
+        display: flex;
+        justify-content:center;
+        flex-flow:row wrap;
+    }
+
 
     h1:hover{
         font-size: larger;
+        color: black;
 
     }
-    .btn:hover{
+    ul:hover{
         color: blanchedalmond;
+    }
+
+    footer{
+        position: absolute;
+        left: 50%;
+        top: 95%;
+        transform: translate(-50%);
+    }
+       
+    
+    @media(max-width: 770px){
+        body{
+            padding-top: 120px;
+        }
     }
